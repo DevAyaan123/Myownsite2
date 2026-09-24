@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayaan's Personal Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Oswald', sans-serif;
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        header {
+            margin-bottom: 50px;
+            border-bottom: 2px solid #82aeff;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #82aeff;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s ease;
+        }
+        nav a:hover {
+            color: #b4cdff;
+            text-decoration: underline;
+        }
+        h1, h2, h3 {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        section {
+            margin-bottom: 50px;
+            background-color: #111111;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #222222;
+        }
+        .profile-pic {
+            max-width: 250px;
+            border-radius: 10px;
+            margin: 20px 0;
+            display: block;
+            border: 2px solid #82aeff;
+        }
+        .social-links, .project-links {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #82aeff;
+            color: #000000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+        .btn:hover {
+            background-color: #b4cdff;
+            transform: translateY(-2px);
+            text-decoration: none;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 20px;
+            border-top: 1px solid #222222;
+            color: #888888;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ayaan's Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Ayaan, a passionate student and programmer at Hack Club. I love exploring the world of technology, writing code, and building interactive computer applications from scratch. Every day is a new opportunity to learn something fascinating in computer science.</p>
+        <img src="E:\Ayaan\Ayaan AND fRIENDS\ayaan ai animated.png" alt="Ayaan's Profile Picture" class="profile-pic">
+        <div class="social-links">
+            <a href="https://stardance.hackclub.com/projects/62775" target="_blank" class="btn">Stardance Profile</a>
+            <a href="https://github.com/DevAyaan123/Myownsite" target="_blank" class="btn">GitHub Profile</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <p>Over time, I have picked up various tools and programming languages to help bring my creative ideas to life:</p>
+        <ul>
+            <li><strong>Frontend Development:</strong> HTML5,Python</li>
+            <li><strong>Tools & Platforms:</strong>GitHub, and code editors</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <p>I love building things! Below are some of the main highlights of my coding journey so far:</p>
+        
+        <h3>1. Stardance My own site Project</h3>
+        <p>This is my very first official project submitted on Stardance.</p>
+        
+        <h3>2. School Website </h3>
+        <p>I designed and developed a custom website built specifically for my aschool. My computer teacher reviewed it and absolutely loved the layout and interactivity!</p>
+        
+        <div class="project-links">
+            <a href="https://github.com/DevAyaan123/Myownsite" target="_blank" class="btn">View Source Code</a>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies & Interests</h2>
+        <p>Outside of sitting in front of a monitor and writing code, I enjoy balancing my digital life with outdoor adventures and quality time:</p>
+        <ul>
+            <li><strong>Fishfing:</strong> Enjoying quiet mornings by the water.</li>
+            <li><strong>Trekking:</strong> Exploring nature trails and hiking outdoors.</li>
+            <li><strong>Driving:</strong> Heading out for long, relaxing drives.</li>
+            <li><strong>Socializing:</strong> Spending fun moments hanging out with family and close friends.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <p>If you want to collaborate on a project, chat about code, or just say hello, feel free to reach out via my profiles above!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ayaan stardance :) .</p>
+    </footer>
+</body>
+</html>
